@@ -29,6 +29,7 @@ spectroscopy, beam optics and modeling)
 - **Fabrication**: machining, welding, brazing, electrical soldering, carpentry
 
 ## Projects
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
   - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
 {% endfor %}
+[more projects...](/pages/projects)

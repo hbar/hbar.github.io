@@ -3,6 +3,8 @@ title: Publications
 layout: default
 ---
 
+# Publications
+
 1. Hartwig, Z.S., **H. S. Barnard**, R. C. Lanza, B. N. Sorbom, P. W. Stahle, and D. G. Whyte,
 "An accelerator based diagnostic for plasma-material interactions science on magnetic fusion
 devices." submitted to *Review of Scientific Instruments* (2013)
