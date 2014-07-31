@@ -11,16 +11,24 @@ in February 2014 and am currently a postdoc at MIT working on projects related t
 <p>During my Ph.D. at MIT I gained substantial experience with ion-accelerators and their
 applications as materials diagnostics.</p>
 
-<p>For my doctoral research I developed a novel in-situ ion-accelerator-based diagnostic technique for
-studying plasma-materials interactions in the Alcator C-Mod tokamak at MIT. This is the first
-diagnostic to provide in-situ spatially-resolved measurements of the effects of plasma-materials
-interactions in a fusion reactor and has important implications for magnetic fusion energy science.
-Through this project, I also developed a strong background in accelerator engineering and particle
-beam modeling. I rebuilt and upgraded a radio frequency quadrupole accelerator, including its control
-and power systems. In addition, I developed my own ion beam dynamics simulation tools for modelin
-ion beams in the complex fields of a tokamak.</p>
+### Research Experience
 
-### Projects
+- Accelerator-based diagnostic techniques for materials analysis (hardware development,
+spectroscopy, beam optics and modeling)
+- Fusion and fission reactor design (engineering and conceptual design studies)
+- General design, engineering, and integration of scientific equipment
+
+### Engineering Experience
+
+- **Prototyping**: accelerator hardware, instrumentation, mechanical design, PCB design
+- **Electrical Eng**.: analog circuit design, PLC controls, DC/RF/pulsed power systems
+- **Mechanical Eng**: structural/thermal analysis, FEA, pneumatics, vacuum systems
+- **CAD Modeling**: SolidWorks, AutoCAD, QCad, Eagle
+- **Scientific Computing**: Python, MATLAB, COMSOL
+- **Neutron Transport Modeling**: MCNP
+- **Fabrication**: machining, welding, brazing, electrical soldering, carpentry
+
+## Projects
 {% for post in site.posts %}
-- {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
+  - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
 {% endfor %}
