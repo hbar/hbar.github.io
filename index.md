@@ -22,5 +22,5 @@ ion beams in the complex fields of a tokamak.</p>
 
 ### Projects
 {% for post in site.posts %}
-- {{ post.date | date_to_string }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
+- {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
 {% endfor %}
