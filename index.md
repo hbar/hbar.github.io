@@ -20,7 +20,7 @@ beam modeling. I rebuilt and upgraded a radio frequency quadrupole accelerator, 
 and power systems. In addition, I developed my own ion beam dynamics simulation tools for modelin
 ion beams in the complex fields of a tokamak.</p>
 
-### Recent posts
+### Projects
 {% for post in site.posts limit: 5 %}
-- {{ post.date | date_to_string }} <span class="seperator">~</span> [{{ post.title }}]({{ post.url }})
+- {{ post.date | date_to_string }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
 {% endfor %}
