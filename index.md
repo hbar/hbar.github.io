@@ -21,6 +21,6 @@ and power systems. In addition, I developed my own ion beam dynamics simulation 
 ion beams in the complex fields of a tokamak.</p>
 
 ### Projects
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts %}
 - {{ post.date | date_to_string }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
 {% endfor %}
