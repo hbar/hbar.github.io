@@ -1,0 +1,13 @@
+url: http://haroldbot.com
+permalink: pretty
+pygments: true
+markdown: kramdown
+exclude: ['Gemfile', 'CNAME', 'README.markdown']
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
