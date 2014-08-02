@@ -3,14 +3,15 @@ layout: default
 title: haroldbot
 ---
 
-<p>I am an engineer, scientist, and a general maker of things.</p>
+<p>I am an engineer, scientist, an artist, and a general maker of things.</p>
 
 <p>I completed my doctorate of science at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a>
 in February 2014 and am currently a postdoc at MIT working on projects related to my doctoral work.</p>
 
+<--!
 <p>During my Ph.D. at MIT I gained substantial experience with ion-accelerators and their
 applications as materials diagnostics.</p>
-
+-->
 ### Research Experience
 
 - Accelerator-based diagnostic techniques for materials analysis (hardware development,
