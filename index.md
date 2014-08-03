@@ -3,21 +3,23 @@ layout: default
 title: haroldbot
 ---
 
-<p>I am an engineer, scientist, an artist, and a general maker of things.</p>
+<p>I am an engineer, a scientist, an adventurer, an artist, and a maker.</p>
 
 <p>I completed my doctorate of science at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a>
 in February 2014 and am currently a postdoc at MIT working on projects related to my doctoral work.</p>
 
-<--!
-<p>During my Ph.D. at MIT I gained substantial experience with ion-accelerators and their
-applications as materials diagnostics.</p>
--->
 ### Current Research Topics
 
-- Accelerator-based diagnostic techniques for materials analysis (hardware development,
-spectroscopy, beam optics, and modeling)
+- Accelerator-based diagnostic techniques for materials analysis (hardware development, beam optics, X-ray/gamma ray
+spectroscopy, and computational modeling)
 - Fusion and fission reactor design (engineering and conceptual design studies)
 - General design, engineering, and integration of scientific equipment
+
+## Projects
+{% for post in site.posts limit:5 %}
+  - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
+{% endfor %}
+[more projects...](/pages/projects)
 
 ### Engineering Experience
 
@@ -28,9 +30,3 @@ spectroscopy, beam optics, and modeling)
 - **Scientific Computing**: Python, MATLAB, COMSOL
 - **Neutron Transport Modeling**: MCNP
 - **Fabrication**: machining, welding, brazing, electrical soldering, carpentry
-
-## Projects
-{% for post in site.posts limit:5 %}
-  - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
-{% endfor %}
-[more projects...](/pages/projects)
