@@ -8,6 +8,13 @@ title: haroldbot
 <p>I completed my doctorate of science at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a>
 in February 2014 and am currently a postdoc at MIT working on projects related to my doctoral work.</p>
 
+### Current Research Topics
+
+- Accelerator-based diagnostic techniques for materials analysis (hardware development, beam optics, X-ray/gamma ray
+spectroscopy, and computational modeling)
+- Fusion and fission reactor design (engineering and conceptual design studies)
+- General design, engineering, and integration of scientific equipment
+
 ### Engineering Experience
 
 - **Prototyping**: accelerator hardware, instrumentation, mechanical design, PCB design
@@ -17,13 +24,6 @@ in February 2014 and am currently a postdoc at MIT working on projects related t
 - **Scientific Computing**: Python, MATLAB, COMSOL
 - **Neutron Transport Modeling**: MCNP
 - **Fabrication**: machining, welding, brazing, electrical soldering, carpentry
-
-### Current Research Topics
-
-- Accelerator-based diagnostic techniques for materials analysis (hardware development, beam optics, X-ray/gamma ray
-spectroscopy, and computational modeling)
-- Fusion and fission reactor design (engineering and conceptual design studies)
-- General design, engineering, and integration of scientific equipment
 
 ## Projects
 {% for post in site.posts limit:5 %}

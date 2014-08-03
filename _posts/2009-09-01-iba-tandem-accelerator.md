@@ -1,5 +1,5 @@
 ---
-title: Tandem Accelerator for Materials (masters thesis)
+title: Tandem Accelerator for Materials Analysis (masters thesis)
 layout: post
 permalink: tandem-accelerator
 ---
