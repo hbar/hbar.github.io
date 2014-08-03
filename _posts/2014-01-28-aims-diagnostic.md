@@ -25,8 +25,10 @@ and power systems. In addition, I developed my own ion beam dynamics simulation 
 ion beams in the complex fields of a tokamak.</p>
 
 3D simulation of particle trajectory for beam targeting:
+
 ![TandemAccelerator](/images/AIMSSimulationPlot1.png){: .inline-img}
 
-Predicted beam distribution on target based on 6D phase-space beam dynamics simulation:
+Predicted beam distribution on target based on 6D phase-space beam dynamics simulation: 
+
 ![TandemAccelerator](/images/AIMSSimulationPlot2.png){: .inline-img}
 
