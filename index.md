@@ -12,10 +12,10 @@ in February 2014 and am currently a postdoc at MIT working on projects related t
 <p>During my Ph.D. at MIT I gained substantial experience with ion-accelerators and their
 applications as materials diagnostics.</p>
 -->
-### Research Experience
+### Current Research Topics
 
 - Accelerator-based diagnostic techniques for materials analysis (hardware development,
-spectroscopy, beam optics and modeling)
+spectroscopy, beam optics, and modeling)
 - Fusion and fission reactor design (engineering and conceptual design studies)
 - General design, engineering, and integration of scientific equipment
 
