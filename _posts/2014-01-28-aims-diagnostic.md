@@ -21,8 +21,7 @@ fusion energy science and will provide critical information on how optimize plas
 
 <p>Through this project, I also developed a strong background in accelerator engineering and particle
 beam modeling. I rebuilt and upgraded a radio frequency quadrupole accelerator, including its control
-and power systems. In addition, I developed my own ion beam dynamics simulation tools for modeling
-ion beams in the complex fields of a tokamak.</p>
+and power systems. In addition, I developed my own ion beam dynamics simulation tools.  These tools are capalbe of modeling for modeling classical and relaticistic ion beams in the complex 3D magnetic fields of devices like tokamaks.</p>
 
 3D simulation of particle trajectory for beam targeting:
 
@@ -31,4 +30,6 @@ ion beams in the complex fields of a tokamak.</p>
 Predicted beam distribution on target based on 6D phase-space beam dynamics simulation: 
 
 ![AIMSSimulationPlot2](/images/AIMSSimulationPlot2.png){: .inline-img}
+
+The simulation tools were written in python and are available from my github repository: <a href='https://github.com/hbar/python-BeamDynamicsTools'>python-BeamDynamicsTools</a>. These tools are functional but are still under develop more addvanced features and improve user-friendliness. 
 
