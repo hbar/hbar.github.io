@@ -13,9 +13,9 @@ micro-valves).
 I developed a novel, reusable method for packaging the valves, and
 providing electrical connections. The system consisted of a tiny, carefully machined,
 gasket-sealed holder for the device, mounted on a PCB surrounded by a sealed acrylic
-chamber. For electrical connections, the device could be wire-bonded to the PCB.
+chamber. For electrical connections, the device could be wire-bonded to bond pads on the PCB.
 
 To control these arrays of valves, I created a 32-channel switching circuit for the
 power supply, and designed a computer interface to send signals to the valves. A
-pressure controller was used upstream, along with a mass flow controller downstream,
-to expose controlled pressurized gas in either direction to test the valve.
+pressure controller was used upstream, along with a mass flow meter downstream,
+to expose controlled pressurized gas to test the valves.
