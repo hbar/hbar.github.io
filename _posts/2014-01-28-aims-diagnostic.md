@@ -31,5 +31,5 @@ Predicted beam distribution on target based on 6D phase-space beam dynamics simu
 
 ![AIMSSimulationPlot2](/images/AIMSSimulationPlot2.png){: .inline-img}
 
-The simulation tools were written in python and are available from my github repository: <a href='https://github.com/hbar/python-BeamDynamicsTools'>python-BeamDynamicsTools</a>. These tools are functional but are still under develop more addvanced features and improve user-friendliness. 
+The simulation tools were written in python and are available from my github repository: <a href='https://github.com/hbar/python-BeamDynamicsTools'>python-BeamDynamicsTools</a>. These tools are functional and have been validated against Los Alamos beam transport codes for overlapping test cases but are still a work in progress.  I am in the process of adding more advanced features and improving user-friendliness. 
 
