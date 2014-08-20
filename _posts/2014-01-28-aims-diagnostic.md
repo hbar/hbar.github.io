@@ -33,3 +33,8 @@ Predicted beam distribution on target based on 6D phase-space beam dynamics simu
 
 The simulation tools were written in python and are available from my github repository: <a href='https://github.com/hbar/python-BeamDynamicsTools'>python-BeamDynamicsTools</a>. These tools are functional and have been validated against Los Alamos beam transport codes for overlapping test cases but are still a work in progress.  I am in the process of adding more advanced features and improving user-friendliness. 
 
+We are currently in the process of upgrading the beam steering power supplies to improve the spatial extent of our measurements. This is an ongoing process involving beam optics simulation, the implementation of active focusing, and DC power engineering which will dramatically improve the capabilities of this diagnostic.
+
+![AIMSUpgradePlot2](/images/BeamCoveragewithTFUpgrade.pdf){: .inline-img}
+
+
