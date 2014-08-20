@@ -14,7 +14,7 @@ After completion the accelerator construction, I developed a beamline that produ
 
 ![TungstenMigration](/images/TungstenMigration.png){: .inline-img}
 
-Using this accelerator and the external IBA setup, I was able to analyze plasma facing components that were removed from the reactor to study erosion and deposition patterns of materials such tungsten (W) caused by the high temperature plasma inside of fusion devices. I was also able to map out the erosion patterns of boron plasma coatings the surface of reactor wall materials.
+Using this accelerator and the external IBA setup, I was able to analyze plasma facing components that were removed from the reactor to study erosion and deposition patterns of materials such tungsten (W) caused by the high temperature plasma inside of fusion devices. I was also able to map out the erosion patterns of boron plasma coatings on the surface of reactor wall materials.
 
 ![BoronMap](/images/XPigeAnalysis2DCombined.png){: .inline-img}
 

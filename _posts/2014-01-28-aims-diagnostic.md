@@ -7,7 +7,7 @@ permalink: aims-diagnostic
 ![AIMSPhotographs](/images/AIMSPhotographsCombined.png){: .inline-img}
 
 <p> For my doctoral research I developed a novel in-situ ion-accelerator-based diagnostic technique for
-studying plasma-materials interactions in the Alcator C-Mod tokamak at MIT. The work was a collaboration with Z.S.Harwig, B.N.Sorbom, and D.G.Whyte. My contributions to this project focused on development of the accelerator hardware, controls, and power system as well as particle beam dynamics modeling.</p>
+studying plasma-materials interactions in the Alcator C-Mod tokamak (MIT's fusion experiment). This essentially involved integrating a particle accelerator with a fusion reactor to allow us to make ion beam measurements of materials in the reactor. These measurements allow us dynamically measure how the plasma within the fusion device changes the composition of surfaces that come in contact with the plasma. This work was a collaboration with Z.S.Harwig, B.N.Sorbom, and D.G.Whyte. My contributions to this project focused on development of the accelerator hardware, controls, and power system as well as particle beam dynamics modeling.</p>
 
 ![nsideAlcatorPhoto](/images/InsideAlcatorPhoto.png){: .inline-img}
 
