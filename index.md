@@ -7,7 +7,7 @@ title: haroldbot
 
 <p>I am an engineer, a scientist, an adventurer, an artist, and a maker of many things.</p>
 
-<p> I am interested in energy technology, among many other things, and have been working on nuclear fusion energy research as a student and as a researcher at MIT. I completed my doctorate at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a> in February 2014 and am currently a postdoc working on projects related to my doctoral work. I'm always interested in exciting new projects and am looking forward to the places that my life and my career take me next</p>.
+<p> I am interested in energy technology, among many other things. I have been working on nuclear fusion energy research as a student and as a researcher at MIT. I completed my doctorate at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a> in February 2014 and am currently a postdoc working on projects related to my doctoral work. I'm always interested in exciting new projects and am looking forward to the places that my life and my career take me next</p>.
 
 ### Current Research Topics
 
