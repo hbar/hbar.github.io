@@ -35,6 +35,6 @@ The simulation tools were written in python and are available from my github rep
 
 We are currently in the process of upgrading the beam steering power supplies to improve the spatial extent of our measurements. This is an ongoing process involving beam optics simulation, the implementation of active focusing, and DC power engineering which will dramatically improve the capabilities of this diagnostic.
 
-![AIMSUpgradePlot2](/images/BeamCoveragewithTFUpgrade.pdf){: .inline-img}
+![AIMSUpgradePlot2](/images/BeamCoveragewithTFUpgrade.png){: .inline-img}
 
 
