@@ -7,7 +7,7 @@ permalink: aims-diagnostic
 ![AIMSPhotographs](/images/AIMSPhotographsCombined.png){: .inline-img}
 
 <p> For my doctoral research I developed a novel in-situ ion-accelerator-based diagnostic technique for
-studying plasma-materials interactions in the Alcator C-Mod tokamak (MIT's fusion experiment). This essentially involved integrating a particle accelerator with a fusion reactor to allow us to make ion beam measurements of materials in the reactor. These measurements allow us dynamically measure how the plasma within the fusion device changes the composition of surfaces that come in contact with the plasma. This work was a collaboration with Z.S.Harwig, B.N.Sorbom, and D.G.Whyte. My contributions to this project focused on development of the accelerator hardware, controls, and power system as well as particle beam dynamics modeling.</p>
+studying plasma-materials interactions in the Alcator C-Mod tokamak (MIT's fusion experiment). This essentially involved integrating a particle accelerator with a fusion reactor to allow us to make ion beam measurements of materials in the reactor. These measurements allow us dynamically measure how the plasma within the fusion device changes the composition of surfaces that come in contact with the plasma. This work was a collaboration with Z.S.Hartwig, B.N.Sorbom, and D.G.Whyte. My contributions to this project focused on development of the accelerator hardware, controls, and power system as well as particle beam dynamics modeling.</p>
 
 ![nsideAlcatorPhoto](/images/InsideAlcatorPhoto.png){: .inline-img}
 
@@ -21,7 +21,7 @@ fusion energy science and will provide critical information on how optimize plas
 
 <p>Through this project, I also developed a strong background in accelerator engineering and particle
 beam modeling. I rebuilt and upgraded a radio frequency quadrupole accelerator, including its control
-and power systems. In addition, I developed my own ion beam dynamics simulation tools.  These tools are capable of modeling for modeling classical and relaticistic ion beams in the complex 3D magnetic fields of devices like tokamaks.</p>
+and power systems. In addition, I developed my own ion beam dynamics simulation tools.  These tools are capable of modeling for modeling classical and relativistic ion beams in the complex 3D magnetic fields of devices like tokamaks.</p>
 
 3D simulation of particle trajectory for beam targeting:
 

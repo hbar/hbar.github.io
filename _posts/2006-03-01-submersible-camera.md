@@ -10,4 +10,4 @@ In college, my friends and I made a trip to Isle de Culbra in Puerto Rico. At th
 
 ![SeaTurtle](/images/SeaTurtle.jpg){: .inline-img}
 
-With my camera, we were able to lot of pictures of the reefs and the Puerto Rican sea life.
+With my camera, we were able to take a lot of pictures of the reefs and the Puerto Rican sea life.
