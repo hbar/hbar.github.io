@@ -22,15 +22,15 @@ A 3D simulation of particle trajectory for beam targeting is shown bellow. The t
 
 While calculating the trajectory, the local position, velocity, and basis vectors along with the magnetic fields and gradiets are calculated to be used later in the dynamics calculation. For accurate trajectories to be calculated, the magnetic fields must be modeled.  In the case of tokamak, which is symmetric about the z-axis, the symmetry can be exploited allowing 2D field models to be used.
 
-The toroidal field is calculated using a model that represents the each toroidal field coil a vertical current filaments. The equations and field magnitude plot are shown below. 
+The toroidal field is calculated using a model that represents each toroidal field coil a vertical current filaments. The equations and field magnitude plot are shown below. 
 
 ![TFMagnitudePlot](/images/Simulation-ToroidalFieldPlot.png)
 
-The vertical field is calculated using the elliptic integral solution for off axis current loops. The equations and field plots are shown below.
+The vertical field is calculated using the elliptic integral solution for off axis current loops. This accurately represents the fields create by the tokamak's pair of vertical field coils. The equations and field plots are shown below. 
 
 ![VFMagnitudePlot](/images/Simulation-VerticalField.png)
 
-From observing the beams trajectory through the magnetic fields, it is clear that the beam experiences strong field gradients and non-uniformities as it passes the coil sets in the tokamak which can cause complex focusing/defocusing effects. 
+From observing the beams trajectory through the magnetic fields, it is clear that the beam experiences strong field gradients and non-uniformities as it passes the coil sets in the tokamak which can cause complex focusing / defocusing effects. 
 
 ![FieldMap](/images/Simulation-VerticalToroidalFieldMap.png)
 
@@ -39,24 +39,34 @@ The code can be further generalized by applying field maps that are calculated i
 6D Dynamics Calculation
 -----------------------
 
-Predicted beam distribution on target based on 6D phase-space beam dynamics simulation: 
+The non-uniform fields and coupling between momentum components make it necessary to simulate the evolution of the beam's entire distribution. For example:  
+
+![LaminarSpaceCharge1](/images/Simulation-BFocusing.png)
+
+In addition the spatial and momentum distribution (non-laminar) of the beam combined with fields created within the beam (space charge effects) add further complexity to the simulation.  
+
+![BFieldEffects](/images/Simulation-LaminarVsNonLaminar.png)
+
+For the AIMS diagnostic, the beam currents and beam emittance fall in the region where both space charge effects and non-laminar, emittance drive effects contribute to the beam's evolution as shown in the following plot:
+
+![LaminarSpaceCharge2](/images/Simulation-SpaceChargeVsEmittance.png)
+
+The simulation must include the beam's the 3 spatial dimensions and the beams 3 momentum dimensions. The distribution is represented by as a 6D ellipsoidal envelope enclosing the phase volume of the beam. This ellipsoidal envelope is described using the <a><href='http://cas.web.cern.ch/cas/Germany2009/Lectures/PDF-Web/Wolski-3.pdf'>sigma matrix formalism</a> where the ellipse parameters from each phase plane are combined into a 6x6 matrix form which is operated on by transfer matrices. Linear models are used to define these transfer matrices at each integration step along the trajectory to model the beam's evolution as it passes through fields and due to space charge.
+
+![TransferMatrices](/images/Simulation-TransferMatrices.png)
+
+![TransferMatrices](/images/Simulation-TransferMatricesDef1.png)
 
 ![AIMSSimulationPlot2](/images/AIMSSimulationPlot2.png){: .inline-img}
 
 
 
-We are currently in the process of upgrading the beam steering power supplies to improve the spatial extent of our measurements. This is an ongoing process involving beam optics simulation, the implementation of active focusing, and DC power engineering which will dramatically improve the capabilities of this diagnostic.
-
-![AIMSUpgradePlot2](/images/BeamCoveragewithTFUpgrade.png){: .inline-img}
-
-![LaminarSpaceCharge1](/images/Simulation-LaminarVsNonLaminar.png)
-![LaminarSpaceCharge2](/images/Simulation-SpaceChargeVsEmittance.png)
-
-
-
 ![TransferMatrices](/images/Simulation-TransferMatrices.png)
+
 ![TransferMatricesDef](/images/Simulation-TransferMatricesDefCombined.png)
+
 ![Validation1](/images/Simulation-Validation1.png)
+
 ![Validation2](/images/Simulation-Validation2.png)
 
 
