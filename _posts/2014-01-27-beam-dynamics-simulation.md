@@ -4,9 +4,6 @@ layout: post
 permalink: beam-simulation
 ---
 
-UNDER CONSTRUCTION
-==================
-
 To design and support the AIMS diagnostic developed in my doctoral thesis work, I developed suite of ion beam dynamics simulation tools.  These tools are capable of modeling modeling classical and relativistic ion beam trajectories in the complex 3D magnetic fields. In addition, the code can model the 6D dynamics of the of the beam's phase space distribution as it evolves due to beam curvature, magnetic field gradients, and space charge effects. This code has also been extended to include relativistic effects that are important from high energy ion beams and moderate to high energy electron beams. 
 
 ![AIMSSimulationPlot1](/images/AIMSSimulationPlot1.png){: .inline-img}
