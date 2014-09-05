@@ -1,5 +1,5 @@
 ---
-title: Beam Simulation Tools (doctoral thesis)
+title: Beam Dynamics Simulations (doctoral thesis)
 layout: post
 permalink: beam-simulation
 ---
