@@ -2,6 +2,7 @@
 title: Projects
 layout: default
 ---
+![ProfilePhoto](/images/TandemAccelerator.jpg){: .inline-img}
 
 # Projects
 
