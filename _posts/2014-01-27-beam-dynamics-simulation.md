@@ -4,7 +4,7 @@ layout: post
 permalink: beam-simulation
 ---
 
-To design and support the AIMS diagnostic developed in my doctoral thesis work, I developed suite of ion beam dynamics simulation tools.  These tools are capable of modeling modeling classical and relativistic ion beam trajectories in the complex 3D magnetic fields. In addition, the code can model the 6D dynamics of the of the beam's phase space distribution as it evolves due to beam curvature, magnetic field gradients, and space charge effects. This code has also been extended to include relativistic effects that are important from high energy ion beams and moderate to high energy electron beams. 
+To design and support the AIMS diagnostic developed in my doctoral thesis work, I developed a suite of ion beam dynamics simulation tools.  These tools are capable of modeling classical and relativistic ion beam trajectories in the complex 3D magnetic fields. In addition, the code can model the 6D dynamics of the of the beam's phase space distribution as it evolves due to beam curvature, magnetic field gradients, and space charge effects. In an effort generalize these simulation tools, the code has been extended to include relativistic effects making the tools applicable to high energy ion beams and electron beams. 
 
 ![AIMSSimulationPlot1](/images/AIMSSimulationPlot1.png){: .inline-img}
 
@@ -61,11 +61,6 @@ Combining all of the effects, the beam simulation code has successfully been use
 Code Validation:
 ----------------
 
-Furthermore, the beam beam dynamics code has been validated against the <a href='http://laacg.lanl.gov/laacg/services/traceman.pdf'>TRACE3D beam transport code</a> developed at Los Alamos. Phase ellipse plots for two overlapping cases show exact agreement with between the beam dynamics code and the TRACE 3D. 
-
-![Validation1](/images/Simulation-Validation1.png)
+Furthermore, the beam beam dynamics code has been validated against the <a href='http://laacg.lanl.gov/laacg/services/traceman.pdf'>TRACE3D beam transport code</a> developed at Los Alamos. Phase ellipse plots for an overlapping test case (one of many) shows exact agreement with between the beam dynamics code and the TRACE3D. 
 
 ![Validation2](/images/Simulation-Validation2.png)
-
-Additional work (not shown) has also been performed to validate the both the beam trajectory and dynamics calculations.
-
