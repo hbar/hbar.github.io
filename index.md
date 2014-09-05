@@ -9,6 +9,12 @@ title: haroldbot
 
 <p> I am interested in energy technology, among many other things. I have been working on nuclear fusion energy research as a student and as a researcher at MIT. I completed my doctorate at the <a href='http://www.psfc.mit.edu/'>MIT Plasma Science and Fusion Center</a> in February 2014 and am currently a postdoc working on projects related to my doctoral work. I'm always interested in exciting new projects and am looking forward to the places that my life and my career take me next</p>.
 
+## Projects
+{% for post in site.posts limit:5 %}
+  - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
+{% endfor %}
+[more projects...](/pages/projects)
+
 ### Current Research Topics
 
 - Accelerator-based diagnostic techniques for materials analysis (hardware development, beam optics, X-ray/gamma ray
@@ -25,9 +31,3 @@ spectroscopy, and computational modeling)
 - **Scientific Computing**: Python, MATLAB, COMSOL
 - **Neutron Transport Modeling**: MCNP
 - **Fabrication**: machining, welding, brazing, electrical soldering, carpentry
-
-## Projects
-{% for post in site.posts limit:5 %}
-  - {{ post.date | date: '%B %Y' }} <span class="separator">~</span> [{{ post.title }}]({{ post.url }})
-{% endfor %}
-[more projects...](/pages/projects)
