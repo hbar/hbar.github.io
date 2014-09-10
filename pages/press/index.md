@@ -8,7 +8,7 @@ layout: default
 
 - Research: Nuclear Science and Engineering at MIT: <a href='http://web.mit.edu/nse/research/tungsten_slideshow.html'> The Extreme Materials Environment of a Magnetic Fusion Reactor</a>
 
-- Science Daily (Nov 13, 2013): <a href='http://www.sciencedaily.com/releases/2013/11/131113125841.htm>Monitoring material changes in the hostile environment of a fusion reactor</a>
+- Science Daily (Nov 13, 2013): <a href='http://www.sciencedaily.com/releases/2013/11/131113125841.htm'>Monitoring material changes in the hostile environment of a fusion reactor</a>
 
 - University Herald (Nov 14, 2013): <a href='http://www.universityherald.com/articles/5572/20131114/researchers-develop-experimental-method-that-could-help-fusion-energy-become-commercially-used.htm'>Researchers Develop Experimental Method that Could Help Fusion Energy Become Commercially Used</a>
 
