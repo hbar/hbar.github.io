@@ -2,6 +2,7 @@
 title: AIMS Diagnostic (doctoral thesis)
 layout: post
 permalink: aims-diagnostic
+categories: [research]
 ---
 
 ![AIMSPhotographs](/images/AIMSPhotographsCombined.png){: .inline-img}

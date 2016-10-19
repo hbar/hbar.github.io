@@ -2,6 +2,7 @@
 title: Beam Dynamics Simulations (doctoral thesis)
 layout: post
 permalink: beam-simulation
+categories: [research]
 ---
 
 ####Overview:
