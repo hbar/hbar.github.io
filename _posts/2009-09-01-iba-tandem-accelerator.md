@@ -2,6 +2,7 @@
 title: Accelerator for Materials Analysis (masters thesis)
 layout: post
 permalink: tandem-accelerator
+categories: [research]
 ---
 
 ![TandemAccelerator](/images/TandemAccelerator.jpg){: .inline-img}

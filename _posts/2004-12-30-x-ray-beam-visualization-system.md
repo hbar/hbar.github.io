@@ -2,6 +2,7 @@
 title: X-Ray Beam Position Visualization System
 layout: post
 permalink: x-ray-beam-visualization-system
+categories: [research]
 ---
 
 ![X-Ray Beam Position Visualization System](/images/beam-visualization-system.jpg){: .inline-img}

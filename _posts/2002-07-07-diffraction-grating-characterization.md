@@ -2,6 +2,7 @@
 title: Characterizing and Simulating Diffraction Gratings
 layout: post
 permalink: characterizing-diffraction-gratings
+categories: [research]
 ---
 
 ![Characterizing Diffraction Gratings](/images/diffraction-grating.jpg){: .inline-img}

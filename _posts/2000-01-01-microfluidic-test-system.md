@@ -2,6 +2,7 @@
 title: Microfluidic Test System
 layout: post
 permalink: microfluidic-test-system
+categories: [research]
 ---
 
 ![Microfluidic Test System](/images/microfluidic-test-system.jpg){: .inline-img}
